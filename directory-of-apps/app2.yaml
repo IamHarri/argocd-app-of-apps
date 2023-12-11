@@ -9,7 +9,7 @@ spec:
     server: "https://kubernetes.default.svc"
   project: default
   source: 
-    path: kustomize-guestbook
+    path: apps/kustomize-guestbook
     repoURL: "https://github.com/IamHarri/argocd-app-of-apps.git"
     targetRevision: main
     kustomize:
