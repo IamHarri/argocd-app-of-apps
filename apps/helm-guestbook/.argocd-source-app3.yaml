@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: longlc3/guestbook
+    forcestring: true
+  - name: image.tag
+    value: v0.3
+    forcestring: true
